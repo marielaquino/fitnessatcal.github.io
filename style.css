@@ -1,0 +1,223 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Hammersmith One', sans-serif;
+/*   font-family: 'Montserrat', sans-serif; */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container, .container-fluid {
+  max-width: 1440px;
+}
+
+.content-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-container .title {
+  font-size: 36px;
+  color: #002358;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/* Nav bar */
+
+nav img {
+  height: 30px;
+  width: 30px;
+  transform: translateY(2pt);
+}
+
+#nav-name {
+  display: inline;
+  font-size: 18pt;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+.nav-link-reg {
+
+  transition: 0.2s;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+.nav-link-reg:hover {
+  border-bottom: 3px solid #FFD600;
+}
+
+.navbar-brand {
+  margin: 0 -15px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://images.unsplash.com/photo-1517963879433-6ad2b056d712?ixlib=rb-0.3.5&s=54331efe1a98378c7541161800babafe&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  left: 0;
+  right: 0;
+/*   transform: rotate(-10deg);  */
+}
+
+.jumbo-text-container {
+  color: #EBEBEB;
+  margin-top: 60vh;
+  text-shadow: 0px 0px 1px #000000;
+}
+
+.trapezoid-jumbo {
+  height: 25vh;
+  border-bottom: 25vh solid #FFFFFF;
+  border-left: 100vw solid transparent;
+  border-right: 0px solid transparent;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* What we do */
+
+.whatwedo {
+  width: 100%;
+  max-width: 400px;
+  float: right;
+  border-radius: 1%;
+  margin-bottom: 30px;
+}
+
+/* Team */
+
+.team-img {
+  padding: 20px;
+}
+
+.team-img img {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.team-img img:hover {
+  transform: scale(1.05);
+}
+
+/* FAQ Section */
+
+.faq-text {
+  padding-bottom: 30px;
+}
+
+/* Contact */
+
+.contact-container {
+  height: 85vh;
+  background-image: url("https://cdn.glitch.com/5ad0da30-20fc-460d-9ebf-fa82118f9bda%2Fmeghan-holmes-779221-unsplash.jpg?1543554325270");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  background-color: black;
+}
+
+.contact-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.contact-container .title {
+  padding-top: 45vh;
+  padding-bottom: 0;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+
+}
+
+.contact-container a {
+  color: white;
+  text-shadow: 0px 0px 2px black;
+  transition: 0.2s;
+}
+
+.socmedia-row a:hover {
+  transform: scale(1.1);
+}
+
+.socmedia {
+  font-size: 40px;
+  padding: 15px;
+}
+
+#facebook-logo {
+  font-size: 37px;
+  transform: translateY(2px);
+}
+
+#email-logo {
+  font-size: 33px;
+  transform: translateY(3px);
+}
+
+.trapezoid-contact {
+  height: 25vh;
+  border-top: 25vh solid #FFFFFF;
+  border-right: 100vw solid transparent;
+  border-left: 0px solid transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+button {
+  border: none ;
+  background-color: rgb(255, 204, 0);
+  color: white;
+  border-radius: 5pt;
+  cursor: pointer;
+}
+
+#contact-cta {
+  font-size: 18pt;
+  height: 50px;
+  width: 120px;
+  margin-top: 15px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+#nav-cta {
+  transition: 0.2s;
+}
+
+#nav-cta:hover {
+  transform: translateY(-2pt);
+}
+
+.cta-row>a:hover {
+  cursor: pointer;
+  transform: translateY(-5pt);
+}
